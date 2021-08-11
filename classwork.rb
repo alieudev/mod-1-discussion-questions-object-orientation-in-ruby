@@ -1,5 +1,4 @@
 class Animal 
-    attr_accessor :name
     def initialize(newSpecies)
         @species = newSpecies
     end 
@@ -15,7 +14,6 @@ class Animal{
     }
     let alieu = new Animal('dog'); 
     alieu.species 
-
 }
 
 frederick = Animal.new("bull")
